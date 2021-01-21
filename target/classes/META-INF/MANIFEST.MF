@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-Description: EncryptorMediator
+Bundle-SymbolicName: EncryptorMediator
+Built-By: shanaka
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1611217192901
+Import-Package: javax.crypto,javax.crypto.spec,org.apache.commons.logg
+ ing,org.apache.synapse,org.apache.synapse.mediators
+DynamicImport-Package: *
+Tool: Bnd-1.15.0
+Export-Package: org.wso2.mediator;uses:="javax.crypto,org.apache.commo
+ ns.logging,javax.crypto.spec,org.apache.synapse.mediators,org.apache.
+ synapse"
+Bundle-Name: EncryptorMediator
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_261
+
